@@ -1,4 +1,4 @@
-    *{
+    body{
           margin: 0px;
           padding: 0px;
      }
@@ -71,11 +71,10 @@
       text-align: left;
       list-style: none;
       background: #0000FE;
-      padding: 3em;
       line-height: 2em;
-      margin-left: -3em;
+      margin-left: -2em;
       margin-top: 2em;
-      
+      padding-bottom: 0em;
     }
     li {
       margin: 0.5rem;
@@ -169,12 +168,6 @@
       padding-bottom: 2em;
     }
     
-    .divBoton{
-      display: flex;
-      justify-content: center;
-      outline: none;
-    }
-
     .boton {
       background-color: #00F3BB;
       font-family: 'IBM Plex Mono', monospace;
@@ -275,10 +268,14 @@
     }
 
     .helloTitle{
-      padding: 0em 2em 0.5em 0em;
+      overflow-wrap: break-word;
+      width: 7em;
+      margin-top: 0em;
     }
 
-
+    #nosotros{
+      margin-top: 65em;
+    }
     .topicsWraper div img{
       flex-direction: column;
       align-items: center;
