@@ -74,7 +74,8 @@
       line-height: 2em;
       margin-left: -2em;
       margin-top: 2em;
-      padding-bottom: 0em;
+      padding-bottom: 1em;
+      padding-top: 1.3em;
     }
     li {
       margin: 0.5rem;
