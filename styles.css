@@ -120,6 +120,7 @@
         line-height: 42px;
         font-weight:300;
         line-height: 1em;
+        margin-left: 0.5em;
     }
     
     .blueDot{
@@ -196,7 +197,7 @@
     }
     
     .episodesTitle{
-      padding: 0em 2em 0.5em 0.5em;
+      padding: 0em 2em 0.5em 0em;
       color: white;
       z-index: 1;
       margin-top: 0em;
@@ -259,8 +260,10 @@
         }
 
     .venimosTitle{
-      padding: 2em 0em 0.5em 0em;
+      padding: 2em 0em 0.5em -0.5em;
       font-size: 2.5em;
+      margin-left: 0em;
+      margin-top: 3em;
     }
 
     .pNosotros{
@@ -294,7 +297,7 @@
       }
     
     .temasTitle{
-      padding: 1em 2em 0.5em 0.5em;
+      padding: 1em 2em 0.5em 0em;
       font-size: 2.5em;
     }
 
