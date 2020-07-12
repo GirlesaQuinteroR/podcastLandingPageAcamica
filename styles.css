@@ -114,7 +114,7 @@
 
     h1 {
         font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 4em;
+        font-size: 2.5em;
         color: #060A24;
         letter-spacing: 0;
         line-height: 42px;
@@ -218,7 +218,6 @@
       iframe{
       border: none;
       width: 18em;
-      /* height: 15em; */
     }
 
     .embedEpisode {
@@ -227,8 +226,6 @@
       top: 3em;
       width: 19em;
       margin: 1em;
-      /* height: 15em; */
-
     }
 
       .skew {
@@ -240,7 +237,7 @@
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         transform: skewY(-6deg);
       }
-
+      
       .phoneMobile{
         width: 320px;
         height: 519px;
@@ -253,11 +250,12 @@
       }
 
     .invitees{
-      margin-top: 13em;
+      margin-top: 16em;
     }
 
     .inviteesImg img  {
         display:grid;
+        width: 20em;
         }
 
     .venimosTitle{
@@ -283,10 +281,15 @@
     .updatesTitle{
       text-align: center;
       font-size: 2.5em;
+      position: relative;
+      top: 1em;
+      color: white;
+      font-weight: 100;
+}
     }
     
-    .invitadasTitle{
-      padding: 1em 2em 0.5em 0.5em;
+    #invitadasTitle{
+      padding-left: 0.5em;
       font-size: 2.5em;
       }
     
@@ -334,6 +337,8 @@
       width: 86vw;
       height: 2.5em;
       margin-left: 1.25em;
+      position: absolute;
+      top: 10em;
     }
     
     .botonEscuchar:hover {
@@ -347,12 +352,47 @@
     }
 
       .footerSettings {
-        background-color: #D9D9D9;
+        background-color:white;
         margin-top: 0em;
         position: absolute;
     }
     .smIcon{
       height: 1.5em;
+    }
+    .updates{
+      position: relative;
+      width: 100%;
+      height: 21.3em;
+    }
+
+    .updatesSkew {
+      background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+      width: 100%;
+      height: 21.3em;
+      position: absolute;
+      transform: skewY(-6deg);
+    }
+
+    .socialMedia{
+      margin-top: -5em;
+      width: 100%;
+      height: 3.75em;
+      position: absolute;
+      background-color: white;
+      top: 26em;
+      padding-bottom: 2.5EM;
+    }
+
+    .socialMedia a{
+      border: none;
+      cursor: pointer;
+      outline: none;
+      background-color: white;
+      position: relative;
+      left: 1em;
+  }
+    .socialMedia p{
+      text-align: center;
     }
 
     @media screen and (min-width: 768px) {
