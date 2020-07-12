@@ -218,7 +218,7 @@
 
       iframe{
       border: none;
-      width: 18em;
+      width: 90vw;
     }
 
     .embedEpisode {
@@ -399,17 +399,6 @@
     }
 
     @media screen and (min-width: 768px) {
-      .intromobile{
-        display: none;
-      }
-
-      .blueDot{
-        color: #0000FE;
-        size: 0.5em;
-      }
-    }
-
-    @media screen and (min-width: 321px) {
       .intromobile{
         display: none;
       }
