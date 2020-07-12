@@ -246,7 +246,7 @@
         height: 519px;
         position: absolute;
         margin-top: 137px;
-        transform: translate(-0.5px, -60px)
+        transform: translate(-0.5px, -60px);
       }
       .wwcomefrom{
         padding: 30em 1.5em 0em 1.5em;
@@ -258,8 +258,6 @@
 
     .inviteesImg img  {
         display:grid;
-        width: 320px;
-        height: 243px;
         }
 
     .venimosTitle{
@@ -283,7 +281,6 @@
     }
 
     .updatesTitle{
-      padding: 1em 2em 0.5em 0.5em;
       text-align: center;
       font-size: 2.5em;
     }
@@ -327,14 +324,16 @@
       font-weight: bold;
       color: #060A24;
       text-align: center;
-      line-height:1.38em;
+      line-height: 1.38em;
       cursor: pointer;
-      margin-bottom: 1em;
       transition: color 0.5s;
-      font-size: 1.7em;
+      font-size: 1.2em;
       line-height: 1.38em;
       border: none;
-      padding: 1em 3.1em;
+      outline: none;
+      width: 86vw;
+      height: 2.5em;
+      margin-left: 1.25em;
     }
     
     .botonEscuchar:hover {
@@ -349,7 +348,7 @@
 
       .footerSettings {
         background-color: #D9D9D9;
-        margin-top: 502em;
+        margin-top: 0em;
         position: absolute;
     }
     .smIcon{
