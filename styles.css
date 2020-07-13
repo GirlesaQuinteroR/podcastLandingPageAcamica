@@ -398,7 +398,7 @@
       text-align: center;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 728px) {
       .intromobile{
         display: none;
       }
@@ -406,5 +406,57 @@
       .blueDot{
         color: #0000FE;
         size: 0.5em;
+      }
+
+      .menu{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+      }
+
+       .ulMenu li {
+        display: inline;
+        float: left;
+       }
+
+       .btn-label {
+        display: none;
+      }
+      .header-button {
+        display: none;
+      }
+      .header-button::before,
+      .header-button::after {
+        display: none;
+      }
+      .header-button::after {
+        display: none;
+      }
+
+      .checkbox {
+        display: none;
+      }
+
+      .btn-label {
+        display: none;
+      }
+
+      .menu{
+        background: white;
+        color: black;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        border: 2px solid red;
+        top: -4em;
+        position: absolute;
+        width: 50vw;
+        align-content: flex-end;
+        margin-left: 10em;
+        height: 64px;
+        top: 3em;
       }
     }
