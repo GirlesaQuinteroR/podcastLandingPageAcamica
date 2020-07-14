@@ -398,7 +398,7 @@
       text-align: center;
     }
 
-    @media screen and (min-width: 728px) {
+    @media screen and (min-width: 1024px) {
       .intromobile{
         display: none;
       }
@@ -408,16 +408,14 @@
         size: 0.5em;
       }
 
-      .menu{
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-      }
-
        .ulMenu li {
         display: inline;
         float: left;
+       }
+
+       #menuItem a  {
+         color: black;
+         font-size: 0.8em;
        }
 
        .btn-label {
@@ -443,20 +441,46 @@
       }
 
       .menu{
-        background: white;
-        color: black;
-        position: fixed;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
         z-index: 10;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        border: 2px solid red;
-        top: -4em;
         position: absolute;
-        width: 50vw;
+        width: 81vw;
         align-content: flex-end;
         margin-left: 10em;
         height: 64px;
-        top: 3em;
+        top: 0em;
+        padding: 0;
+        background: white;
+      }
+
+      header {
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+        background: #FFFFFF;
+    }
+      .header-container {
+        width: 90%;
+        position: relative;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+      ul{
+        text-align: left; 
+        line-height: 0em;
+        margin-left: 0em;
+        margin-top: 0em;
+        padding-bottom: 0.5em; 
+        padding-top: 0 em; 
+        background: white;
+        margin-right: 1em;
       }
     }
