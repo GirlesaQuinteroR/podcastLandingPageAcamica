@@ -403,7 +403,7 @@
         display: none;
       }
 
-      #intro{
+      .intro{
         font-family: 'IBM Plex Mono', monospace;
         font-size: 1em;
         color: #060A24;
