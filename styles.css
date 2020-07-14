@@ -403,6 +403,20 @@
         display: none;
       }
 
+      #intro{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1em;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: -30.62em;
+        width: 45vw;
+        margin-left: 10em;
+        margin-top: -2em;
+        padding: 0em;
+        position: absolute;
+        display: block;
+      }
+
       .blueDot{
         color: #0000FE;
         size: 0.5em;
@@ -414,7 +428,7 @@
        }
 
        #menuItem a  {
-         color: black;
+         color:#060A24;
          font-size: 0.8em;
        }
 
@@ -483,4 +497,14 @@
         background: white;
         margin-right: 1em;
       }
+
+      .helloTitle {
+        overflow-wrap: break-word;
+        width: 12em;
+        margin-top: 3em;
+        margin-left: 2.5em;
+        font-size: 4em;
+        font-weight: 400;
+    }
+
     }
