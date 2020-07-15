@@ -507,4 +507,61 @@
         font-weight: 400;
     }
 
+    .boton {
+      background-color: #00F3BB;
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: bold;
+      color: #060A24;
+      text-align: center;
+      line-height: 1.38em;
+      cursor: pointer;
+      transition: color 0.5s;
+      font-size: 1.2em;
+      line-height: 1.38em;
+      border: none;
+      outline: none;
+      width: 16vw;
+      height: 2.5em;
+      margin-left: 8.25em;
+      position: absolute;
+      margin-top: 4em;
+  }
+
+  .episodesTitle {
+    padding: 0em 2em 0.5em 0em;
+    color: white;
+    z-index: 1;
+    margin-top: 0em;
+    position: relative;
+    font-size: 3.25em;
+    top: 1em;
+    left: 2.5em;
+}
+
+.episodesContainer{
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 16fr;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  top: 7em;
+  left: 1.5em;
+  width: 108%;
+}
+
+iframe {
+  border: none;
+  width: 172%;
+}
+
+.skew {
+  top: -70px;
+  height: 915.5px;
+  width: 112.5%;
+  left: 0px;
+  position: absolute;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  transform: skewY(-6deg);
+}
+
     }
