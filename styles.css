@@ -475,7 +475,7 @@
 
       header {
         position: absolute;
-        width: 100%;
+        width: 112%;
         z-index: 10;
         background: #FFFFFF;
     }
@@ -540,13 +540,22 @@
 
 .episodesContainer{
   display: grid;
-  grid-template: 1fr 1fr / 1fr 16fr;
+  grid-template: 1fr 1fr / 1fr 1fr;
   justify-items: center;
   align-items: center;
   align-content: center;
   top: 7em;
-  left: 1.5em;
+  left: -5.5em;
   width: 108%;
+}
+
+.embedEpisode {
+  position: relative;
+  z-index: 1;
+  top: 3em;
+  width: auto;
+  height: auto;
+  margin: 1em;
 }
 
 iframe {
@@ -562,6 +571,55 @@ iframe {
   position: absolute;
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   transform: skewY(-6deg);
+}
+
+.phoneMobile {
+  width: 28em;
+  height: 44em;
+  position: absolute;
+  margin-top: -18em;
+  transform: translate(-0.5px, -60px);
+  margin-left: 7em;
+}
+
+#nosotros {
+  margin-top: 65em;
+  display: inline-block;
+}
+
+.wwcomefrom {
+  padding: 0em 0em 0em 0em;
+  top: 89em;
+  left: 36em;
+  position: absolute;
+
+}
+.pNosotros {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8em;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: -30.62em;
+  width: 41vw;
+  margin-left: 0em;
+  text-align: left;
+  margin-right: 3;
+  margin-top: -2em;
+  padding-right: -1em;
+  position: absolute;
+}
+
+.invitees {
+  margin-top: 24em;
+}
+
+#invitadasTitle{
+  margin-left: 3.5em;
+}
+.displayInvitees{
+  display:grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  width: 113%;
 }
 
     }
