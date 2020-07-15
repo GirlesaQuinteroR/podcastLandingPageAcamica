@@ -622,4 +622,102 @@ iframe {
   width: 113%;
 }
 
+.temasTitle {
+  padding: 1em 2em 0.5em 0em;
+  font-size: 2.5em;
+  margin-left: 3.5em;
+}
+
+.topicsWraper {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 5em;
+}
+.topicsWraper div img {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0em;
+}
+
+.topicsWraper div {
+  display: grid;
+  grid-template: 2fr 1fr / 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+.rpTitle{
+  margin-top: 0.6em;
+}
+
+
+.siTitle{
+  padding-right: 1em;
+  margin-top: 0.5em;
+}
+
+img.temasIcon.moveImage{
+  padding-top:2.5em;
+}
+
+.updatesSkew {
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    width: 195%;
+    height: 30.3em;
+    position: absolute;
+    transform: skewY(-6deg);
+    margin-top: 4em;
+}
+
+.socialMedia {
+  margin-top: 7em;
+  width: 113vw;
+  height: 8.75em;
+  position: absolute;
+  background-color: white;
+  top: 25em;
+  padding-bottom: 0em;
+  display: inline-flex;
+  align-items: center;
+
     }
+
+    .updatesTitle {
+      text-align: center;
+      font-size: 2.5em;
+      position: relative;
+      top: 5em;
+      color: white;
+      font-weight: 100;
+      left: 7em;
+  }
+
+  .botonEscuchar {
+    background-color: #00F3BB;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    color: #060A24;
+    text-align: center;
+    line-height: 1.38em;
+    cursor: pointer;
+    transition: color 0.5s;
+    font-size: 1.2em;
+    line-height: 1.38em;
+    border: none;
+    outline: none;
+    width: 35vw;
+    height: 3em;
+    margin-left:21.25em;
+    position: absolute;
+    top: 15em;
+}
+    .smP{
+        margin-left: 5em;
+    }
+    .smAnchors{
+      margin-left: 30em;
+    }
+
+}
