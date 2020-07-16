@@ -785,6 +785,20 @@ img.temasIcon.moveImage{
   grid-template: 1fr 1fr 1fr 1fr 1fr none;
 }
 
+.siTitle {
+  padding-right: 1em;
+  margin-top: 0.8em;
+}
+
+img.temasIcon.moveImage {
+  margin-left: -1em;
+  margin-bottom: 1em;
+}
+
+img.temasIcon.moveImage.rpImage {
+  margin-left: -2em;
+  margin-bottom: 1em;
+}
 .updatesSkew {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   width: 246%;
