@@ -312,17 +312,31 @@
     #nosotros{
       margin-top: 65em;
     }
+
+    .topicsWraper{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    }
+
     .topicsWraper div img{
         flex-direction: column;
         align-items: center;
-        margin-left: 7em;
+        margin-left: 3em;
     }
 
     .temasIcon{
       height: 6em;
       padding-top: 1em;
     }
-
+    
+    img.temasIcon.moveImage{
+      margin-left: 5em;
+    }
+    img.temasIcon.moveImage.rpImage{
+      margin-left: 7em;
+    }
 
     .botonEscuchar {
       background-color: #00F3BB;
