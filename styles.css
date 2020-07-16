@@ -731,7 +731,99 @@ img.temasIcon.moveImage{
       text-decoration: line-through;
   }
 
+}
 
+@media screen and (min-width: 1366px){
+
+  .skew {
+    top: -70px;
+    height: 915.5px;
+    width: 100vw;
+    left: 0px;
+    position: absolute;
+    background-image: linear-gradient(225deg, rgb(0, 0, 255) 0%, rgb(0, 0, 163) 100%);
+    transform: skewY(-6deg);
+}
+
+.episodesContainer {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  top: 7em;
+  grid-template: 1fr 1fr 1fr 1fr none;
+  width: 78vw;
+  left: 4em;
+}
+
+.displayInvitees {
+  display: grid;
+  width: 100vw;
+  grid-template: 1fr 1fr 1fr 1fr 1fr none;
+}
+
+.topicsWraper {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 0em;
+  grid-template: 1fr 1fr 1fr 1fr 1fr none;
+}
+
+.updatesSkew {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  width: 246%;
+  height: 30.3em;
+  position: absolute;
+  transform: skewY(-6deg);
+  margin-top: 4em;
+}
+.socialMedia {
+  margin-top: 6em;
+  width: 113vw;
+  height: 9.75em;
+  position: absolute;
+  background-color: white;
+  top: 25em;
+  padding-bottom: 0em;
+  display: inline-flex;
+  align-items: center;
+}
+
+.smAnchors {
+  margin-left: 47em;
+}
+
+.botonEscuchar {
+  background-color: #00F3BB;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  color: #060A24;
+  text-align: center;
+  line-height: 1.38em;
+  cursor: pointer;
+  transition: color 0.5s;
+  font-size: 1.2em;
+  line-height: 1.38em;
+  border: none;
+  outline: none;
+  width: 35vw;
+  height: 3em;
+  margin-left: 25.25em;
+  position: absolute;
+  top: 15em;
+}
+
+  .updatesTitle {
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    top: 5em;
+    color: white;
+    font-weight: 100;
+    left: 10.5em;
+}
 
 
 }
