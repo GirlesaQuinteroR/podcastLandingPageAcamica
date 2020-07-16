@@ -720,4 +720,18 @@ img.temasIcon.moveImage{
       margin-left: 30em;
     }
 
+    #menuItem a:hover {
+      color: rgba(0, 243, 187, 1);
+      font-size: 0.8em;
+      text-decoration: line-through;
+  }
+    #menuItem a:active {
+      color: rgba(6,10,36,0.56);
+      font-size: 0.8em;
+      text-decoration: line-through;
+  }
+
+
+
+
 }
