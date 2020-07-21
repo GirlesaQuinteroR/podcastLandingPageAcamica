@@ -156,6 +156,9 @@ h1 {
   margin-left: 0.5em;
 }
 
+.blueDot {
+  size: 0.5em;
+}
 
 h2 {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -177,6 +180,7 @@ h2 {
   font-size: 0.8em;
   color: #060A24;
   letter-spacing: 0;
+  line-height: -30.62em;
   width: 87vw;
   margin-left: 1.5em;
   text-align: justify;
@@ -291,7 +295,7 @@ iframe {
 }
 
 .invitees {
-  margin-top: 18em;
+  margin-top: 16em;
 }
 
 .inviteesImg img {
@@ -301,6 +305,7 @@ iframe {
 }
 
 .venimosTitle {
+  padding: 2em 0em 0.5em -0.5em;
   font-size: 2.5em;
   margin-left: 0em;
   margin-top: 3em;
@@ -311,9 +316,13 @@ iframe {
   font-size: 0.8em;
   color: #060A24;
   letter-spacing: 0;
+  line-height: -30.62em;
   width: 84vw;
   margin-left: 0em;
   text-align: justify;
+  margin-right: 3;
+  margin-top: -2em;
+  padding-right: -1em;
   position: absolute;
 }
 
@@ -468,6 +477,10 @@ img.temasIcon.moveImage.rpImage {
   text-align: center;
 }
 
+.smAIcon {
+  color: black;
+}
+
 @media screen and (min-width: 1024px) {
   .intromobile {
     display: none;
@@ -477,6 +490,7 @@ img.temasIcon.moveImage.rpImage {
     font-size: 1em;
     color: #060A24;
     letter-spacing: 0;
+    line-height: -30.62em;
     width: 45vw;
     margin-left: 10em;
     margin-top: -2em;
@@ -486,6 +500,7 @@ img.temasIcon.moveImage.rpImage {
   }
   .blueDot {
     color: #0000FE;
+    size: 0.5em;
   }
   .ulMenu li {
     display: inline;
@@ -566,6 +581,7 @@ img.temasIcon.moveImage.rpImage {
     margin-left: 0em;
     margin-top: 0em;
     padding-bottom: 0.5em;
+    padding-top: 0 em;
     background: white;
     margin-right: 1em;
   }
@@ -669,10 +685,13 @@ img.temasIcon.moveImage.rpImage {
     font-size: 0.8em;
     color: #060A24;
     letter-spacing: 0;
+    line-height: -30.62em;
     width: 41vw;
     margin-left: 0em;
     text-align: left;
+    margin-right: 3;
     margin-top: -2em;
+    padding-right: -1em;
     position: absolute;
   }
   .invitees {
@@ -807,6 +826,9 @@ img.temasIcon.moveImage.rpImage {
     font-size: 0.8em;
     text-decoration: line-through;
   }
+  .smAIcon {
+    color: black;
+  }
 }
 
 @media screen and (min-width: 1366px) {
@@ -830,7 +852,7 @@ img.temasIcon.moveImage.rpImage {
     -ms-flex-line-pack: center;
         align-content: center;
     top: 7em;
-    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr none;
     width: 78vw;
     left: 4em;
   }
@@ -838,7 +860,7 @@ img.temasIcon.moveImage.rpImage {
     display: -ms-grid;
     display: grid;
     width: 100vw;
-    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr 1fr none;
   }
   .topicsWraper {
     display: -ms-grid;
@@ -849,7 +871,7 @@ img.temasIcon.moveImage.rpImage {
             align-items: center;
     width: 100%;
     margin-left: 0em;
-    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr 1fr none;
   }
   .siTitle {
     padding-right: 1em;
@@ -918,6 +940,9 @@ img.temasIcon.moveImage.rpImage {
     color: white;
     font-weight: 100;
     left: 10.5em;
+  }
+  .smAIcon {
+    color: black;
   }
 }
 /*# sourceMappingURL=styles.css.map */

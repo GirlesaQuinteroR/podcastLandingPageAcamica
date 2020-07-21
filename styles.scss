@@ -412,6 +412,10 @@
       text-align: center;
     }
 
+    .smAIcon {
+      color: black;
+    }
+
     @media screen and (min-width: 1024px) {
       .intromobile{
         display: none;
@@ -441,7 +445,7 @@
         float: left;
        }
 
-       #menuItem a  {
+       .menuItem a  {
          color:#060A24;
          font-size: 0.8em;
        }
@@ -734,15 +738,19 @@ img.temasIcon.moveImage{
       margin-left: 30em;
     }
 
-    #menuItem a:hover {
+    .menuItem a:hover {
       color: rgba(0, 243, 187, 1);
       font-size: 0.8em;
       text-decoration: line-through;
   }
-    #menuItem a:active {
+    .menuItem a:active {
       color: rgba(6,10,36,0.56);
       font-size: 0.8em;
       text-decoration: line-through;
+  }
+
+    .smAIcon {
+    color: black;
   }
 
 }
@@ -851,6 +859,10 @@ img.temasIcon.moveImage.rpImage {
     color: white;
     font-weight: 100;
     left: 10.5em;
+}
+
+  .smAIcon {
+  color: black;
 }
 
 
